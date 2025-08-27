@@ -629,7 +629,7 @@
   width: 245px;
   height: 245px;
   position: absolute;
-  top: 500px;
+  top: 300px;
   right: 700px;
 }
 
@@ -637,7 +637,7 @@
   border: 4px solid white;
 }
 
-.terkh:hover ~ .tagimg3{
+.terkh:hover ~ .tagimg4{
   display: block;
 }
 
@@ -654,7 +654,7 @@
   border: 4px solid white;
 }
 
-.khuv:hover ~ .tagimg3{
+.khuv:hover ~ .tagimg5{
   display: block;
 }
 
