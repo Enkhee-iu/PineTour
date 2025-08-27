@@ -130,7 +130,8 @@
   height: 370px;
   flex-shrink: 0;
   border-radius: 40px;
-
+   box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
     cursor: pointer;
    
 }
