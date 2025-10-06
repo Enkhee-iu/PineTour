@@ -71,7 +71,7 @@
   font-weight: 400;
   font-style: normal;
   margin-left: 160px;
-  color: aliceblue;
+  color: #e8edf2b8;
   text-transform: uppercase;
 }
 
@@ -86,8 +86,9 @@
 
 .text4 p {
   font-size: 64px;
-  color: aliceblue;
+  color: #e8edf2b8;
   margin-left: 250px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .card1 {
@@ -130,16 +131,10 @@
   height: 370px;
   flex-shrink: 0;
   border-radius: 40px;
-   box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
     8px 8px 0 0 rgba(41, 114, 139, 0.25);
-    cursor: pointer;
-   
+  cursor: pointer;
 }
-
-
-
-
-
 
 .img1 {
   background-image: url(img/1.png);
@@ -227,8 +222,6 @@
   position: relative;
 }
 
-
-
 .title1 {
   color: black;
   text-align: center;
@@ -274,12 +267,9 @@
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-  
 }
 
-
-
-.tag1:hover{
+.tag1:hover {
   border: 2px solid white;
 }
 
@@ -326,33 +316,32 @@
   line-height: normal;
 }
 
-.color1{
+.color1 {
   background-color: rgb(52, 112, 52);
 }
 
-.color2{
+.color2 {
   background-color: #8bb8c1;
 }
 
-.color3{
+.color3 {
   background-color: #aad8d7;
 }
 
-.color4{
-  background-color:#8bc0bd;
+.color4 {
+  background-color: #8bc0bd;
 }
 
-.color5{
-  background-color:#97cce0;
+.color5 {
+  background-color: #97cce0;
 }
 
-.section3{
+.section3 {
   padding-top: 100px;
   background-image: url(img/Footer.png);
   background-size: cover;
   width: 100%;
   height: 1200px;
-  
 }
 
 .iconbudget {
@@ -365,14 +354,13 @@
   font-family: "inter";
 }
 
-  
-.icon2{
-    width: 36px;
-    height: 36px;
-    gap: 10px;
+.icon2 {
+  width: 36px;
+  height: 36px;
+  gap: 10px;
 }
 
-.Container{
+.Container {
   background-color: rgb(255, 255, 255);
   width: 340px;
   height: 470px;
@@ -381,27 +369,26 @@
   margin-right: 24px;
 }
 
-.Container:hover{
-    box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+.Container:hover {
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
     8px 8px 0 0 rgba(41, 114, 139, 0.25);
 }
 
-.check{
+.check {
   width: 15px;
 }
 
-.check1{
+.check1 {
   display: flex;
   align-items: center;
 }
 
-.dollar{
+.dollar {
   width: 336px;
   height: 49px;
-  
 }
 
-.dollar1{
+.dollar1 {
   width: 336px;
   height: 49px;
   font-size: 40px;
@@ -409,13 +396,12 @@
   font-weight: 600;
 }
 
-.blcd{
+.blcd {
   display: flex;
   justify-content: space-between;
-  
 }
 
-.pop{
+.pop {
   width: 91px;
   height: 27px;
   border-radius: 40px;
@@ -426,16 +412,13 @@
   justify-content: center;
 }
 
-.dollar2{
-  
+.dollar2 {
   height: 19px;
   font-family: "inter";
   font-weight: 500;
-  
-  
 }
 
-.inc{
+.inc {
   width: 256px;
   height: 22px;
   font-size: 18px;
@@ -446,16 +429,15 @@
   font-weight: 500;
 }
 
-.imgcheck{
+.imgcheck {
   display: flex;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500px;
-  font-style:medium;
-  
+  font-style: medium;
 }
 
-.inctitle{
+.inctitle {
   margin-left: 20px;
   font-family: "inter";
   font-weight: 500;
@@ -463,21 +445,20 @@
   width: 296px;
   height: 17px;
   margin-bottom: 17px;
-
 }
 
-.inctitle1{
+.inctitle1 {
   margin-top: 17px;
 }
 
-.selectpackage{
+.selectpackage {
   width: 336px;
   height: 48px;
   background-color: #a4d1e2;
   border-radius: 40px;
   display: flex;
   margin-top: 37px;
-  
+
   margin-right: 24px;
   margin-bottom: 48px;
   justify-content: center;
@@ -486,53 +467,52 @@
   transition: opacity 0.5s;
 }
 
-.selectbtn{
+.selectbtn {
   width: 117px;
   height: 20px;
   font-family: "inter";
   font-weight: 600;
   font-size: 15px;
-  
 }
 
-.selectpackage:hover{
+.selectpackage:hover {
   background-color: #18181b;
   color: white;
   width: 336px;
   height: 48px;
   border-radius: 40px;
   display: flex;
-   justify-content: center;
+  justify-content: center;
   align-items: center;
   opacity: 0.7;
 }
 
-.selectbtn:active{
+.selectbtn:active {
   opacity: 0.5;
   color: white;
 }
 
-.bigbox{
+.bigbox {
   display: flex;
   justify-content: center;
   margin-top: 204px;
 }
 
-.footerbox{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 1450px;
-   /* width: 80%; */
-   height: 44px;
-   margin-top: 185px;
-   
-   margin-left: 120px;
-   margin-right: 120px;
-   padding-left: 270px;
+.footerbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1450px;
+  /* width: 80%; */
+  height: 44px;
+  margin-top: 185px;
+
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-left: 270px;
 }
 
-.footer{
+.footer {
   width: 167px;
   height: 40px;
   gap: 10px;
@@ -542,30 +522,27 @@
   justify-content: center;
   border-radius: 40px;
   margin-right: 20px;
-  
 }
 
-.fbicon{
+.fbicon {
   width: 20.16px;
   height: 20.16px;
 }
 
-.endlogo1{
+.endlogo1 {
   display: flex;
   justify-content: end;
 }
 
-
-.endlogo2{
+.endlogo2 {
   width: 101px;
   height: 35px;
   padding-left: 1000px;
-  
 }
 
-.sda{
+.sda {
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -573,7 +550,7 @@
   position: relative;
 }
 
-.tagimg1{
+.tagimg1 {
   display: none;
   width: 245px;
   height: 245px;
@@ -582,15 +559,15 @@
   right: 150px;
 }
 
-.tag1:hover{
+.tag1:hover {
   border: 4px solid white;
 }
 
-.suh:hover ~ .tagimg1{
+.suh:hover ~ .tagimg1 {
   display: block;
 }
 
-.tagimg2{
+.tagimg2 {
   display: none;
   width: 245px;
   height: 245px;
@@ -599,15 +576,15 @@
   right: 700px;
 }
 
-.tag2:hover{
+.tag2:hover {
   border: 4px solid white;
 }
 
-.amar:hover ~ .tagimg2{
+.amar:hover ~ .tagimg2 {
   display: block;
 }
 
-.tagimg3{
+.tagimg3 {
   display: none;
   width: 245px;
   height: 245px;
@@ -616,15 +593,15 @@
   right: 700px;
 }
 
-.tag3:hover{
+.tag3:hover {
   border: 4px solid white;
 }
 
-.khorg:hover ~ .tagimg3{
+.khorg:hover ~ .tagimg3 {
   display: block;
 }
 
-.tagimg4{
+.tagimg4 {
   display: none;
   width: 245px;
   height: 245px;
@@ -633,15 +610,15 @@
   right: 700px;
 }
 
-.tag4:hover{
+.tag4:hover {
   border: 4px solid white;
 }
 
-.terkh:hover ~ .tagimg4{
+.terkh:hover ~ .tagimg4 {
   display: block;
 }
 
-.tagimg5{
+.tagimg5 {
   display: none;
   width: 245px;
   height: 245px;
@@ -650,76 +627,75 @@
   right: 700px;
 }
 
-.tag5:hover{
+.tag5:hover {
   border: 4px solid white;
 }
 
-.khuv:hover ~ .tagimg5{
+.khuv:hover ~ .tagimg5 {
   display: block;
 }
 
-.pin{
+.pin {
   position: absolute;
   display: flex;
   width: 34px;
   height: 34px;
-  
 }
-.card{
+.card {
   position: relative;
   overflow: hidden;
 }
-.z-1{
+.z-1 {
   z-index: 1;
 }
-.z-2{
+.z-2 {
   z-index: 1;
 }
-.z-3{
+.z-3 {
   z-index: 1;
 }
-.z-4{
+.z-4 {
   z-index: 1;
 }
-.overlay{
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(0,0,0,0);
+  background-color: rgb(0, 0, 0, 0);
 }
-.img1:hover > .overlay{
-  background-color: rgb(0,0,0,0.5);
+.img1:hover > .overlay {
+  background-color: rgb(0, 0, 0, 0.5);
   transition: background-color 0.5s ease-out;
 }
 
-.img2:hover .overlay{
-  background-color: rgb(0,0,0,0.5);
+.img2:hover .overlay {
+  background-color: rgb(0, 0, 0, 0.5);
   transition: background-color 0.5s ease-out;
 }
 
-.img3:hover .overlay{
-  background-color: rgb(0,0,0,0.5);
+.img3:hover .overlay {
+  background-color: rgb(0, 0, 0, 0.5);
   transition: background-color 0.5s ease-out;
 }
 
-.img4:hover .overlay{
-  background-color: rgb(0,0,0,0.5);
+.img4:hover .overlay {
+  background-color: rgb(0, 0, 0, 0.5);
   transition: background-color 0.5s ease-out;
 }
 
-.pin1{
+.pin1 {
   left: 1150px;
   top: 850px;
 }
-.pin2{
+.pin2 {
   top: 560px;
   left: 1420px;
 }
-.pin3{
+.pin3 {
   top: 390px;
   left: 1150px;
 }
-.pin4{
+.pin4 {
   top: 500px;
   left: 970px;
 }
